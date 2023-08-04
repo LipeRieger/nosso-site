@@ -25,21 +25,18 @@ header{
     background-color: transparent;
 }
 
-header #nasa{
-    back
-}
 
 main article{
     float: left;
     width: 60%;
-    height: 500px;
+    height: 600px;
     background-color: var(--blue);
 }
 
 main aside{
     float: left;
     width: 40%;
-    height: 500px;
+    height: 600px;
     background-color: var(--blackblue);
 }
 
@@ -51,3 +48,72 @@ footer{
     background-color: var(--red);
 }
 
+/*ASIDE*/
+
+main aside{
+    background-image: linear-gradient(to bottom, var(--blue), var(--blackblue));
+}
+
+main aside div{
+    width: 90%;
+    margin-left: 5%;
+    height: 92%;
+    margin-top: 4%;
+    background-color: black;
+}
+
+main aside div input{
+    border-radius: 0;
+    width: 86%;
+    height: 35px;
+    margin-left: 7%;
+    margin-top: 25px;
+    border: none;
+    padding: 10px;
+}
+
+main aside div input::placeholder{
+    font-family: 'Nexa';
+    color: var(--blue);
+    padding-left: 20px;
+}
+
+main aside div div{
+    height: 215px;
+    background-color: grey;
+    margin-top: 25px;
+    width: 86%;
+    margin-left: 7%;
+}
+
+main aside div div h2{
+    background-color: var(--blue);
+    color: white;
+    padding: 7px;
+    font-family: 'Nexa';
+    padding-left: 30px;
+}
+
+main aside div div ul{
+    list-style: inside;
+    margin-left: 20px;
+    font-family: 'Nexa';
+    margin-top: 15px;
+}
+
+main aside div div ul li:hover{
+    color: var(--blackblue);
+    cursor: pointer;
+}
+
+main aside div img{
+    width: 36%;
+    border: 5px solid gray;
+    height: 160px;
+    margin-top: 30px;
+    margin-left: 7%;
+}
+
+main aside div img:last-child{
+    margin-left: 9%;
+}
