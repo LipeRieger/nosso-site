@@ -65,19 +65,25 @@ main article #sec1 #par p{
     margin-top: 20px;
     margin-left: 5px;
 }
+main article #sec1 input{
+    float: right;
+    margin-top: 10px;
+}
 
 #sec2{
     height: 240px;
     width: 100%;
     margin-left: 40px;
+    display: flex;
 }
 
 #card1{
-    width: 700px;
-    height: 300px;
+    width: 300px;
+    height: 200px;
     color: white;
     font-family: "Nexa";
     font-size: 12px;
+    display: block;
 }
 #sec2 #card1 h4{
     font-size: 14px;
@@ -87,10 +93,42 @@ main article #sec1 #par p{
 #sec2 #card1 p{
     margin-top: 10px;
     margin-left: 10px;
-    }
-#sec2 #card1 #img2{
-    height: 50%;
+}
+#sec2 #card1 li{
+    margin-top: 5px;
+    margin-left: 20px;
+}
+#sec2 #card1 input{
+        float: right;
+        margin-top:  75px;
+}
+#sec2 #card2{
+    width: 400px;
+    height: 200px;
+    display: block;    
+    color: white;
     margin-left: 10px;
+    font-family: "nexa";
+    font-size: 12px;
+}
+#sec2 #card2 p{ 
+    margin-left: 10px;
+}
+#sec2 #card2 h4{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#sec2 #card2 input{
+    float: right;
+    margin-top: 60px;
+}
+#sec2 #card2 a{
+    color: white;
+
+}
+#sec2 #card2 li{
+    margin-left: 20px;
+    margin-top: 5px;
 }
 
 main aside{
