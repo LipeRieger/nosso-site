@@ -24,6 +24,8 @@
     padding: 0;
 }
 
+/*Header*/
+
 header{
     width: 100%;
     height: 200px;
@@ -68,6 +70,8 @@ header #nasa h1{
     height: 50px;
 }
 
+/*Article*/
+
 main article{
     float: left;
     width: 60%;
@@ -75,7 +79,7 @@ main article{
     background-color: var(--blue);
     background-image: linear-gradient(to bottom, var(--blue), var(--blackblue ));
 }
-main #sec1{
+main article #sec1{
     display: flex;
     height: 300px;
     width: 90%;
@@ -113,14 +117,14 @@ main article #sec1 input{
     margin-top: 10px;
 }
 
-#sec2{
+main article #sec2{
     height: 240px;
     width: 100%;
     margin-left: 40px;
     display: flex;
 }
 
-#card1{
+main article #sec2 #card1{
     width: 300px;
     height: 200px;
     color: white;
@@ -128,24 +132,24 @@ main article #sec1 input{
     font-size: 12px;
     display: block;
 }
-#sec2 #card1 h4{
+main article #sec2 #card1 h4{
     font-size: 14px;
     margin-left: 10px;
     width: 100%;
 }
-#sec2 #card1 p{
+main article #sec2 #card1 p{
     margin-top: 10px;
     margin-left: 10px;
 }
-#sec2 #card1 li{
+main article #sec2 #card1 li{
     margin-top: 5px;
     margin-left: 20px;
 }
-#sec2 #card1 input{
+main article #sec2 #card1 input{
         float: right;
         margin-top:  75px;
 }
-#sec2 #card2{
+main article #sec2 #card2{
     width: 400px;
     height: 200px;
     display: block;    
@@ -154,43 +158,27 @@ main article #sec1 input{
     font-family: "nexa";
     font-size: 12px;
 }
-#sec2 #card2 p{ 
+main article #sec2 #card2 p{ 
     margin-left: 10px;
 }
-#sec2 #card2 h4{
+main article #sec2 #card2 h4{
     margin-left: 10px;
     margin-top: 10px;
 }
-#sec2 #card2 input{
+main article #sec2 #card2 input{
     float: right;
     margin-top: 60px;
 }
-#sec2 #card2 a{
+main article #sec2 #card2 a{
     color: white;
 
 }
-#sec2 #card2 li{
+main article #sec2 #card2 li{
     margin-left: 20px;
     margin-top: 5px;
 }
 
-main aside{
-    float: left;
-    width: 40%;
-    height: 600px;
-    background-color: var(--blackblue);
-}
-
-footer{
-    display: block;
-    float: left;
-    width: 100%;
-    height: 100px;
-    background-color: var(--red);
-}
-
-
-/*ASIDE*/
+/*Aside*/
 
 main aside{
     background-image: linear-gradient(to bottom, var(--blue), var(--blackblue));
@@ -264,8 +252,68 @@ main aside div img{
 }
 
 main aside div img:last-child{
-
     margin-left: 9%;
-
 }
 
+/*Footer*/
+
+footer{
+    display: block;
+    float: left;
+    width: 100%;
+    height: 100px;
+    background-color: var(--red);
+}
+
+footer a{
+   margin-left: 10px;
+   color: white;
+   margin-top: 20px;
+   text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+footer #pop{
+   margin-top: 25px;
+   margin-left: 650px
+}
+
+footer #imagembugada{
+background-color: black;
+}
+
+footer #imagembugada img{
+   height: 20px;
+   width: 90px;
+   margin-bottom: 20px;
+   margin-left: 40px;
+}
+
+/*Política de Privacidade*/
+
+#iddd{
+    background-color: rgb(27, 25, 25);
+}
+
+#iddd #sla{
+    font-family: 'Nexa';
+    text-align: center;
+    color: white;
+}
+
+#iddd #poi{
+    font-family: 'Nexa';
+    margin-right: 80px;
+    margin-left: 80px;
+    color: rgb(255, 255, 255);
+}
+
+#iddd #aw{
+    border-radius: 100pc;
+    margin-left: 500px;
+    width: 200px;
+    height: 50px;
+}   
