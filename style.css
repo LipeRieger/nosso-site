@@ -76,7 +76,6 @@ main article{
     float: left;
     width: 60%;
     height: 600px;
-    background-color: var(--blue);
     background-image: linear-gradient(to bottom, var(--blue), var(--blackblue ));
 }
 main article #sec1{
@@ -89,7 +88,6 @@ main article #sec1{
 }
 main article #sec1 #imag{
     height: 200px;
-
     width: 230px;
     margin-top: 50px;
     margin-left: 50px;
@@ -181,6 +179,9 @@ main article #sec2 #card2 li{
 /*Aside*/
 
 main aside{
+    float: left;
+    width: 40%;
+    height: 600px;
     background-image: linear-gradient(to bottom, var(--blue), var(--blackblue));
 }
 
@@ -262,13 +263,12 @@ footer{
     float: left;
     width: 100%;
     height: 100px;
-    background-color: var(--red);
+    background-color: black;
 }
 
 footer a{
    margin-left: 10px;
    color: white;
-   margin-top: 20px;
    text-decoration: none;
 }
 
@@ -276,20 +276,17 @@ footer a:hover{
     text-decoration: underline;
 }
 
-footer #pop{
-   margin-top: 25px;
-   margin-left: 650px
-}
-
-footer #imagembugada{
-background-color: black;
-}
-
 footer #imagembugada img{
-   height: 20px;
-   width: 90px;
-   margin-bottom: 20px;
-   margin-left: 40px;
+    margin-top: 35px;
+    float: left;
+    height: 30px;
+    margin-left: 40px;
+}
+
+footer #pop{
+    margin-top: 40px;
+    float: left;
+    margin-left: 600px;
 }
 
 /*Política de Privacidade*/
@@ -312,8 +309,48 @@ footer #imagembugada img{
 }
 
 #iddd #aw{
+    background-color: var(--blue);
     border-radius: 100pc;
-    margin-left: 500px;
-    width: 200px;
-    height: 50px;
-}   
+    text-align: center;
+    width: 20%;
+    margin-left: 37%;
+    padding: 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Nexa';
+}
+
+#felipe{
+    margin: 100px;
+    margin-top: 50px;
+    background-color: black;
+    color: white;
+    font-family: 'Nexa';
+}
+
+#felipe a{
+    width: 15%;
+    margin-left: 42.5%;
+    background-color: var(--blue);
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    border-radius: 100px;
+    border: 2px solid white;
+}
+
+#cacho{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#tatinho{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+}
